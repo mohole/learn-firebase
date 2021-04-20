@@ -1,3 +1,10 @@
+# learn-firebase
+
+* Create an `.env` file (copying the `.env.example`) and fill with your own Firebase App ID and Project ID.
+* Add 2 secrets in you repo with the same keys and value of the `.env` file
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
