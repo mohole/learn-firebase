@@ -55,12 +55,12 @@ function App() {
           <code>(also check the project DataBase UI)</code>
         </p>
         <p><button onClick={add}>Add a random element!</button></p>
-        <ul>
+        <ol>
           { items.map((item, index) => <li key={index}>
             {item.label} <button 
               onClick={() => remove(item.id)}>remove</button>
           </li>) }
-        </ul>
+        </ol>
       </header>
     </div>
   );
